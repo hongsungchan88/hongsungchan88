@@ -41,7 +41,7 @@
 ## 📌 프로젝트
 
 ### 🎫 실시간 티켓 예매 시스템
-`개인 · 2026.04 – 2026.05` · Spring Boot · JPA · JWT · JMeter
+`개인 · 2026.04 – 2026.06` · Spring Boot · JPA · JWT · JMeter
 
 동시 예매 상황을 가정한 콘서트 좌석 예매 시스템입니다. JMeter로 1,000개 동시 요청을 걸어 중복 예매가 발생하는 걸 직접 확인한 뒤, JPA Optimistic Lock을 적용해 같은 조건에서 중복 예매 0건을 달성했습니다.
 
@@ -68,15 +68,15 @@
 ---
 
 ### 🤖 COGI - Code Guide
-`팀 4명 · 2026.06 – 2026.08` · Spring Boot · Spring Security · JPA · Redis · AWS EC2
+`팀 4명 · 2026.06 – 2026.08` · Spring Boot · Spring Security · JPA · MariaDB · javaparser
 
 GitHub PR을 자동 분석해 AI 코드리뷰를 제공하고, 반복되는 이슈를 약점으로 통계화해 맞춤 학습으로 연결하는 서비스입니다. PR 리뷰 파이프라인(Webhook 수신, Diff 추출, AST 컨텍스트 최적화)과 리뷰 결과 대시보드, 팀원 초대·권한 관리를 담당했습니다.
 
-**[Demo →](https://teamfable.dev/)** · **[Repo →](https://github.com/Leeuswa/COGI)**
+**[Demo →](http://43.202.36.123/)** · **[Repo →](https://github.com/hongsungchan88/COGI)** (팀 저장소 [Leeuswa/COGI](https://github.com/Leeuswa/COGI)의 포크 · 담당 파트 정리)
 
 <br>
 
 ## 🔗 Links
 
 [![GitHub](https://img.shields.io/badge/GitHub-hongsungchan88-181717?style=flat-square&logo=github)](https://github.com/hongsungchan88)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=amazonaws&logoColor=white)](http://hongsungchan-portfolio.s3-website.ap-northeast-2.amazonaws.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=githubpages&logoColor=white)](https://hongsungchan88.github.io)
