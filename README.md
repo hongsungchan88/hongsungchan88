@@ -63,7 +63,7 @@
 
 야구·축구·LCK 실시간 중계와 AI 기반 승부예측 서비스입니다. 회원·일정·순위/기록·AI 파트를 담당했고, OpenAI API 연동으로 댓글·게시글 자동 필터링 기능을 구현했습니다.
 
-**[Repo →](https://github.com/Clutch-team-project/Sports-predict-live)**
+**[Repo →](https://github.com/hongsungchan88/Sports-predict-live)** (팀 저장소 [Clutch-team-project/Sports-predict-live](https://github.com/Clutch-team-project/Sports-predict-live)의 포크 · 담당 파트 정리)
 
 ---
 
