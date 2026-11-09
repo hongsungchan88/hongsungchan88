@@ -43,36 +43,36 @@
 ### 🎫 실시간 티켓 예매 시스템
 `개인 · 2026.04 – 2026.06` · Spring Boot · JPA · JWT · JMeter
 
-동시 예매 상황을 가정한 콘서트 좌석 예매 시스템입니다. JMeter로 1,000개 동시 요청을 걸어 중복 예매가 발생하는 걸 직접 확인한 뒤, JPA Optimistic Lock을 적용해 같은 조건에서 중복 예매 0건을 달성했습니다.
+동시 예매 상황을 가정한 콘서트 좌석 예매 시스템입니다. JMeter로 1,000개 동시 요청을 걸어 중복 예매를 재현하고 JPA Optimistic Lock으로 막았습니다. 다시 측정하다 드러난 500 응답은 409로 바꾸고 MySQL 데드락은 쿼리 실행 순서를 바꿔 해결해, 서버 도달 기준 500 응답을 478건에서 0건으로 줄였습니다. Dependabot으로 의존성 CVE 경고 87건을 점검해 Spring Boot 패치 업그레이드로 83건을 해결했습니다.
 
 **[Repo →](https://github.com/hongsungchan88/ticketing)**
 
 ---
 
 ### 📚 LMS (학습 관리 시스템)
-`팀 6명 · 2025.09 – 2025.12` · Spring Boot · React · TypeScript · JWT
+`팀 6명 · 2025.09 – 2025.12` · Spring Boot · React · TypeScript
 
-학생 도메인(수강신청, 과제제출, 게시판)의 백엔드 API 설계부터 프론트엔드 연동까지 담당했습니다. Git Feature Branch 전략과 PR 리뷰 프로세스를 도입해 협업 충돌을 줄였습니다.
+창업 동아리 팀 프로젝트에 참여해 학생·강사 회원가입 화면, 학과 조회, 과제 등록 파일 전송(FormData), 수강신청 화면 수정을 맡았습니다.
 
 **[Repo →](https://github.com/hongsungchan88/Lms-Fullstack)**
 
 ---
 
 ### ⚽ SPORTS PREDICT LIVE
-`팀 4명 · 2026.06` · Spring Boot · WebSocket · OAuth2 · OpenAI API · AWS EC2
+`팀 4명 · 2026.06` · Spring Boot · Spring Security · JWT · OAuth2 · OpenAI API · AWS EC2
 
-야구·축구·LCK 실시간 중계와 AI 기반 승부예측 서비스입니다. 회원·일정·순위/기록·AI 파트를 담당했고, OpenAI API 연동으로 댓글·게시글 자동 필터링 기능을 구현했습니다.
+야구·축구·LoL 실시간 중계와 AI 승부예측 서비스입니다. 회원·일정·순위/기록·AI 예측 파트를 맡아 Spring Security·JWT 인증, 카카오·구글 OAuth2 로그인, 이메일 인증, OpenAI 승부예측(응답 스키마 고정, 경기당 DB 캐싱)을 구현했고 기능 정의서 91건을 작성했습니다 (본인 커밋 113건, 팀 내 최다).
 
 **[Repo →](https://github.com/hongsungchan88/Sports-predict-live)** (팀 저장소 [Clutch-team-project/Sports-predict-live](https://github.com/Clutch-team-project/Sports-predict-live)의 포크 · 담당 파트 정리)
 
 ---
 
 ### 🤖 COGI - Code Guide
-`팀 4명 · 2026.06 – 2026.08` · Spring Boot · Spring Security · JPA · MariaDB · javaparser
+`팀 4명 · 2026.06 – 2026.08` · Spring Boot 4.1 · JPA · MariaDB · javaparser · Spring RestClient
 
-GitHub PR을 자동 분석해 AI 코드리뷰를 제공하고, 반복되는 이슈를 약점으로 통계화해 맞춤 학습으로 연결하는 서비스입니다. PR 리뷰 파이프라인(Webhook 수신, Diff 추출, AST 컨텍스트 최적화)과 리뷰 결과 대시보드, 팀원 초대·권한 관리를 담당했습니다.
+GitHub PR을 자동 분석해 AI 코드리뷰를 제공하고, 반복되는 이슈를 약점으로 통계화해 맞춤 학습으로 연결하는 서비스입니다. PR 리뷰 파이프라인(Webhook 수신·서명 검증, Diff 추출, AST 컨텍스트 최적화), AI 4개 벤더(Claude·OpenAI·Gemini·Groq) RestClient 연동, 리뷰 결과 대시보드, 팀원 초대·권한 관리를 담당했습니다.
 
-**[Demo →](http://43.202.36.123/)** · **[Repo →](https://github.com/hongsungchan88/COGI)** (팀 저장소 [Leeuswa/COGI](https://github.com/Leeuswa/COGI)의 포크 · 담당 파트 정리)
+**[Repo →](https://github.com/hongsungchan88/COGI)** (팀 저장소 [Leeuswa/COGI](https://github.com/Leeuswa/COGI)의 포크 · 담당 파트 정리)
 
 <br>
 
