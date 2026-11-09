@@ -49,15 +49,6 @@
 
 ---
 
-### 📚 LMS (학습 관리 시스템)
-`팀 6명 · 2025.09 – 2025.12` · Spring Boot · React · TypeScript
-
-창업 동아리 팀 프로젝트에 참여해 학생·강사 회원가입 화면, 학과 조회, 과제 등록 파일 전송(FormData), 수강신청 화면 수정을 맡았습니다.
-
-**[Repo →](https://github.com/hongsungchan88/Lms-Fullstack)**
-
----
-
 ### ⚽ SPORTS PREDICT LIVE
 `팀 4명 · 2026.06` · Spring Boot · Spring Security · JWT · OAuth2 · OpenAI API · AWS EC2
 
